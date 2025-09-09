@@ -6,6 +6,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -13,16 +14,4 @@ body{
 }
 h1{
     padding-bottom: 1em;
-}
-
-.contanire{
-    border: 1px solid;
-    height: 200px;
-    width: 20%;
-    border-radius: 1em;
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
 }
